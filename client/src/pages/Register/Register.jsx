@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { Link } from 'react-router-dom'
 import './Register.css' // Stil dosyasını eklediğinizden emin olun
 
 const Login = () => {
@@ -120,7 +121,7 @@ const Login = () => {
             <div className='google-text'>Google</div>
           </button>
           <p className='register-text'>
-            Already have an account? <a href='/login'>Login now</a>
+            Already have an account? <Link to='/login'>Login now</Link>
           </p>
         </div>
       </div>

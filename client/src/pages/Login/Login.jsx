@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './Login.css'; // Stil dosyasını eklediğinizden emin olun
+import { Link } from 'react-router-dom';
+import './Login.css';
 
 const Login = () => {
   const [email, setEmail] = useState('');
@@ -20,10 +21,8 @@ const Login = () => {
       setError('Email and password are required.');
     } else {
       setError('');
-      // Giriş işlemi burada gerçekleştirilir
       console.log('Email:', email);
       console.log('Password:', password);
-      // Burada bir API çağrısı yapabilirsiniz
     }
   };
 
@@ -60,7 +59,8 @@ const Login = () => {
                 autoComplete='off'
               />
               <div className="forgot-password">
-                <a href="#">Forgot your password?</a>
+              
+                <Link to="#">Forgot your password?</Link>
               </div>
             </div>
             {error && <p className="error">{error}</p>}
@@ -75,7 +75,7 @@ const Login = () => {
             <div className="google-text">Google</div>
           </button>
           <p className="register-text">
-            Don't have an account? <a href="/register">Register here</a>
+            Don't have an account? <Link to="/register">Register here</Link>
           </p>
         </div>
       </div>
