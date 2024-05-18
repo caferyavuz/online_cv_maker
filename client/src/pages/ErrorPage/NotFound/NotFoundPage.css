@@ -1,0 +1,26 @@
+.notfoundpage {
+    background-color: #848484;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../../../public/city.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.error-code {
+  font-size: 250px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  font-weight: bolder;
+  color: white;
+}
+
+.error-page-overlay {
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}

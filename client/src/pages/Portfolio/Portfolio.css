@@ -1,0 +1,25 @@
+.portfolio-page {
+  background-image: url('/public/default-profile.jpg');
+  background-size: cover;
+  background-position: center;
+  float: right;
+  width: 75vw;
+  height: 100vh;
+}
+
+.portfolio-page-overlay {
+  float: right;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75vw;
+  height: 100vh;
+}
+
+.portfolio-page-overlay-text {
+  color: white;
+  opacity: 1;
+  font-size: 64px;
+  font-weight: bold;
+}

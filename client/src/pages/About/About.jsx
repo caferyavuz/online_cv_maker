@@ -5,7 +5,14 @@ import Sidebar from '../../components/Sidebar/Sidebar'
 const About = () => {
   return (
     <div>
-      <Sidebar /> About
+      <Sidebar />
+      <div className='about-page'>
+        <div className='about-page-overlay'>
+          <div className='about-page-overlay-text'>
+            <p>Engin Demir Cankulak</p>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
