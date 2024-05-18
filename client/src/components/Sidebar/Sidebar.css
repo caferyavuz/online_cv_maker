@@ -1,0 +1,94 @@
+.sidebar {
+  width: 25vw;
+  height: 100vh;
+  background-color: #353535;
+  display: inline-table;
+}
+
+.sidebar-img {
+  background-image: url('/public/default-profile.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  margin: 50px auto 0;
+  border: 7px solid #5E5E5E;
+}
+
+.sidebar-profile #profile-name {
+  color: white;
+  display: flex;
+  margin: 50px auto 0;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.sidebar-list {
+  height: auto;
+  padding: 0;
+  width: 50%;
+  margin: auto;
+}
+
+.sidebar-social-list {
+  height: auto;
+  padding: 50px 0;
+  width: 70%;
+  margin: auto;
+  display: flex;
+}
+
+.sidebar-social-list .social-icon {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar-social-row {
+  width: 100%;
+  height: 40px;
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: start;
+  align-items: center;
+  font-size: 20px;
+}
+
+.sidebar-social-row #social-icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+}
+
+.sidebar-row {
+  width: 100%;
+  height: 40px;
+  list-style-type: none;
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: start;
+  align-items: center;
+  font-size: 20px;
+}
+
+.sidebar-list .sidebar-row:hover {
+  cursor: pointer;
+  background-color: #5e5e5e;
+}
+
+.sidebar-row #icon {
+  flex: 30%;
+  display: grid;
+  place-items: center;
+  padding-right: 30px;
+}
+
+.sidebar-row #title {
+  flex: 70%;
+}

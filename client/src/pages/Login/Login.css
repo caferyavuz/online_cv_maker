@@ -23,7 +23,6 @@ body {
 .left-side {
     flex: 1;
     background-image: url('/public/city.jpg');
-    /* Buraya resim URL'inizi ekleyin */
     background-size: cover;
     background-position: center;
     position: relative;
