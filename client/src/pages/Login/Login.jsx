@@ -44,8 +44,9 @@ const Login = () => {
                 id="email"
                 name="email"
                 value={email}
-                placeholder='Email'
+                placeholder='Enter a email'
                 onChange={handleChangeEmail}
+                autoComplete='off'
               />
             </div>
             <div className="form-group">
@@ -54,8 +55,9 @@ const Login = () => {
                 id="password"
                 name="password"
                 value={password}
-                placeholder='Password'
+                placeholder='Enter a password'
                 onChange={handleChangePassword}
+                autoComplete='off'
               />
               <div className="forgot-password">
                 <a href="#">Forgot your password?</a>
@@ -73,7 +75,7 @@ const Login = () => {
             <div className="google-text">Google</div>
           </button>
           <p className="register-text">
-            Don't have an account? <a href="#">Register here</a>
+            Don't have an account? <a href="/register">Register here</a>
           </p>
         </div>
       </div>
