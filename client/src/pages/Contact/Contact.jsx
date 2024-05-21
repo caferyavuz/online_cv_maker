@@ -8,8 +8,10 @@ const Contact = () => {
       <Sidebar />
       <div className='contact-page'>
         <div className='contact-page-overlay'>
-          <div className='contact-page-overlay-text'>
-            <p>Engin Demir Cankulak</p>
+          <div className='contact-page-overlay-container'>
+          <div className='overlay-container-title'>
+              <h1>Contact</h1>
+            </div>
           </div>
         </div>
       </div>

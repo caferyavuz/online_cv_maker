@@ -2,13 +2,14 @@
   background-image: url('/public/default-profile.jpg');
   background-size: cover;
   background-position: center;
-  float: right;
   width: 75vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .services-page-overlay {
-  float: right;
   background-color: rgba(0, 0, 0, 0.85);
   display: flex;
   justify-content: center;
@@ -17,9 +18,76 @@
   height: 100vh;
 }
 
-.services-page-overlay-text {
+.services-page-overlay-container {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 60vh;
+  margin-bottom: 100px;
   color: white;
-  opacity: 1;
-  font-size: 64px;
+}
+
+.services-page-overlay-container .overlay-container-title {
+  width: 100%;
+  height: 10%;
+  text-align: start;
+}
+
+.services-page-overlay-container .overlay-container-title h1{
+  display: inline-block;
+}
+
+.services-page-overlay-container .overlay-container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 80%;
+  justify-content: space-between;
+}
+
+.services-page-overlay-container .overlay-container-card {
+  background-color: rgba(132, 132, 132, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(33.33% - 10px);
+  height: 300px;
+  margin: 5px;
+  color: white;
+  flex-direction: column;
+}
+
+.services-page-overlay-container .overlay-container-card h1 {
+  margin: 0;
+}
+
+.services-page-overlay-container .overlay-container-card .card-img {
+  width: 70%;
+  height: 100px;
+  border-radius: 10px 10px 0 0;
+  background-image: url('/public/default-profile.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.services-page-overlay-container .overlay-container-card .card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.services-page-overlay-container .overlay-container-card .card-title {
+  margin-top: 20px;
+  font-size: 24px;
   font-weight: bold;
+  text-align: center;
+}
+
+.services-page-overlay-container .overlay-container-card .card-description {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center;
 }

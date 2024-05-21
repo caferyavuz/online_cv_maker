@@ -17,9 +17,17 @@
   height: 100vh;
 }
 
-.contact-page-overlay-text {
+.contact-page-overlay-container {
+  float: right;
+  background-color: rgba(132, 132, 132, 0.3);
+  width: 50vw;
+  height: 60vh;
+  margin-bottom: 100px;
   color: white;
-  opacity: 1;
-  font-size: 64px;
-  font-weight: bold;
+}
+
+.overlay-container-title {
+  display: block;
+  margin-top: 30px;
+  margin-left: 50px;
 }

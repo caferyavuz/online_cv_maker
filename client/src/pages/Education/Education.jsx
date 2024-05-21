@@ -8,8 +8,10 @@ const Education = () => {
       <Sidebar />
       <div className='education-page'>
         <div className='education-page-overlay'>
-          <div className='education-page-overlay-text'>
-            <p>Engin Demir Cankulak</p>
+          <div className='education-page-overlay-container'>
+          <div className='overlay-container-title'>
+              <h1>Education</h1>
+            </div>
           </div>
         </div>
       </div>

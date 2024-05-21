@@ -17,9 +17,12 @@
   height: 100vh;
 }
 
-.portfolio-page-overlay-text {
+.portfolio-page-overlay-container {
+  float: right;
+  background-color: rgba(132, 132, 132, 0.3);
+  display: flex;
+  width: 50vw;
+  height: 60vh;
+  margin-bottom: 100px;
   color: white;
-  opacity: 1;
-  font-size: 64px;
-  font-weight: bold;
 }

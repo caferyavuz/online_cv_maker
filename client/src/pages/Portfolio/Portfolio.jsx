@@ -8,8 +8,10 @@ const Portfolio = () => {
       <Sidebar />
       <div className='portfolio-page'>
         <div className='portfolio-page-overlay'>
-          <div className='portfolio-page-overlay-text'>
-            <p>Engin Demir Cankulak</p>
+          <div className='portfolio-page-overlay-container'>
+          <div className='overlay-container-title'>
+              <h1>Portfolio</h1>
+            </div>
           </div>
         </div>
       </div>
