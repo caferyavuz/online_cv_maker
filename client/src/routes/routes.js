@@ -12,6 +12,7 @@ import Portfolio from '../pages/Portfolio/Portfolio'
 import Contact from '../pages/Contact/Contact'
 import NotFoundPage from '../pages/ErrorPage/NotFound/NotFoundPage'
 import Sidebar from '../components/Sidebar/Sidebar'
+import ProgressBar from '../components/ProgressBar/ProgressBar'
 
 const routes = createBrowserRouter([
     {
@@ -66,6 +67,10 @@ const routes = createBrowserRouter([
     {
         path:'/sidebar',
         element: <Sidebar/>
+    },
+    {
+        path:'/progressbar',
+        element: <ProgressBar/>
     },
 ]);
 
